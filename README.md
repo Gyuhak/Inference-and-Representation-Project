@@ -1,7 +1,7 @@
 We upload our project files here for the course GA-2569 Inference and Representation. 
-The details about the course can be found here https://inf16nyu.github.io/home/. 
+The details about the course can be found [here](https://inf16nyu.github.io/home/). 
 
-In this project, we adapted the network architecture of U-Net [1] to detect 
+In this project, we adapted the network architecture of [U-Net](https://arxiv.org/pdf/1505.04597.pdf) to detect 
 occluded area between two successive video frames. 
 For this supervised learning problem, we have constructed fully convolutional networks. 
 During the convolution phase, we built 5 levels and 3 sublayers per level. 
@@ -14,6 +14,4 @@ We counted how many pixels were predicted correctly. The matching rate was appro
 Since occluded area is relatively small in a whole image, this value would be higher than the truth. 
 Thus, we adopted qualitative analysis for better evaluation.
 
-![alt text](http://url/to/img.png)
-
-
+![eval](https://user-images.githubusercontent.com/24445335/37490949-98eae1e8-2872-11e8-888f-2cd60a08abbb.png)
