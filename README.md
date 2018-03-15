@@ -15,3 +15,6 @@ Since occluded area is relatively small in a whole image, this value would be hi
 Thus, we adopted qualitative analysis for better evaluation.
 
 ![eval](https://user-images.githubusercontent.com/24445335/37490949-98eae1e8-2872-11e8-888f-2cd60a08abbb.png)
+
+The image shows that it captured the shape of occluded area, but did not capture the subtle change between frames.
+For more details, please refer to the project poster.
